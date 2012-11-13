@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="7736b0ca-0f33-451e-8f05-04fe821e26f0" Version="1.0.0.0" Publisher="CN=frob.nl" />
+  <Properties>
+    <DisplayName>Now Playing</DisplayName>
+    <PublisherDisplayName>frob.nl</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Now Playing" Logo="images\nowplaying-150.png" SmallLogo="images\nowplaying-30.png" Description="Now Playing" ForegroundText="light" BackgroundColor="#1D1D1D">
+        <DefaultTile ShowName="allLogos" WideLogo="images\nowplaying-310.png" />
+        <SplashScreen Image="images\nowplaying-620.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

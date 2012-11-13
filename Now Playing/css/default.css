@@ -1,0 +1,33 @@
+﻿
+h1 { margin: 45px auto auto 120px; }
+
+/* top margin of main content should be 31px
+    (but that seems too small when using a 500px image as
+     main content instead of a paragraph of text). */
+#main { margin: 81px auto 50px 120px; }
+
+div.panel { width: 420px; margin: 0; padding: 0; border: 0px; float: left; }
+div.grid { width: 440px; margin-left: 20px; border: 0; }
+div.panel img { max-width: 420px; max-height: 420px; }
+div.grid img { max-width: 200px; max-height: 200px; }
+div.imgwrapper { width: 200px; height: 200px; float: left; margin: 0 20px 20px 0; }
+
+/*
+div.panel { width: 310px; margin: 0; padding: 0; border: 0px; float: left; }
+div.grid { width: 330px; margin-left: 31px; border: 0; }
+div.panel img { max-width: 310px; max-height: 310px; }
+div.grid img { max-width: 150px; max-height: 150px; }
+div.imgwrapper { width: 150px; height: 150px; float: left; margin: 0 8px 8px 0; }
+*/
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
